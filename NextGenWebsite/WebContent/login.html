@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+<style>
+    body {font-family: Arial, Helvetica, sans-serif;
+    background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.User{
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.Pass{
+    text-align: justify;
+    padding-left: 50px;
+}
+.User input{
+    border: 0;
+    border-radius: 400;
+    width: 90%;
+    height: 40px;
+  background-color: white;
+    color: black;
+}
+User center{
+ color:darkgrey;
+}
+
+.Pass input{
+    border: 0;
+    border-radius: 400;
+    width: 90%;
+    height: 40px;
+  background-color: white;
+    color: black;
+}
+
+.Main{
+    line-height: 4;
+    background-color: white;
+    height: 1000px;
+    border: 2px solid white;
+  border-radius: 30px;
+    width: 40%;
+    align-items: center;
+}
+
+.Main right{
+    text-align:right;
+    font-size: 15px;
+    color: darkgrey;
+    padding-left: 400px;
+}
+
+
+.Login{
+    width: 60%;
+    color: white;
+    height: 60px;
+    border-radius: 25px;
+     border: 0;
+    font-size: 20px;
+    background:#065A7F ;
+   }
+
+
+
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+</style>
+    
+    <script>
+        if(!document.getElementById("us").checkValidity)
+            {
+                alert("Fill the username");
+            }
+        if(!document.getElementById("ps").checkValidity)
+            {
+                alert("Fill the username");
+            }
+    </script>
+</head>
+    
+<body style="background-image: url(bg-01.jpg)">
+<center>
+    <form class="Main" action="logincheck.jsp" method="post">
+        <h1 style="color: #065A7F "> Employee Login </h1>
+        <div class="User">
+			Username<br/>
+				<input type="text" id="us" class="username" name="uname" placeholder="Type your username" min="1" required>
+        </div>
+        
+		<div class="Pass">
+			Password<br/>
+				<input type="password" name="pwd" id="ps" aria-dropeffect="link" placeholder="Type the password" required>
+        </div>
+				<a href="#"><right>Forgot Password?</right></a>
+        <br/>
+				<input type="submit" value="Login" class="Login">
+    </form>
+</center>
+</body>
+</html>
