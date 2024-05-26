@@ -1,0 +1,12 @@
+NextGen-Framework
+This Framework consists of 3 Modules:
+Profile Management
+	Academic Profile
+	Status of Research/Publication
+Timetable Management
+	Scheduling and Organising works
+	Timely Updates & Notifications
+Goal Tracking
+	Accomplishment of Academic and Research goals
+	
+	
