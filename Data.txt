@@ -1,0 +1,15 @@
+create table emp_profile(id int primary key not null,
+name varchar(100),gender varchar(50),email varchar(100),
+designation varchar(100),qualification varchar(100),
+papers_published int, exp int,dept varchar(100),
+username varchar(100),password varchar(100),role varchar(25));
+
+insert into emp_profile values(1521,"josh","male","josh@gmail.com",
+"Faculty","M.Tech",5,5,"cse","1521","1521","admin");
+
+
+insert into emp_profile values(170030423,"Harsha","male","harsha@gmail.com",
+"HOD","M.Tech",6,5,"cse","170030423","170030423","user");
+
+insert into emp_profile values(170030875,"Srujan","male","srujan@gmail.com",
+"HOD","Ph.D",5,8,"cse","170030875","170030875","user");

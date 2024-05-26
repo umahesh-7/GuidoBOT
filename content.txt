@@ -1,0 +1,14 @@
+The hardest part isn't making resolutions; it's keeping them.
+NextGen bot can be used for setting and tracking goals.
+Employee can manage his profile by keeping tack of 
+Academic Details:It includes his education qualification,certifications,projects underwent etc.
+Status of Ongoing Research:It consists all the working stages and continous progress of his reasearch. 
+Administrative Tasks:All the short term goals of an employee.
+Timetable Management:
+Scheduling and Organising works:The best possible way an employee could manage all his daily tasks
+Timely Updates & Notifications:It provides reminders so that employee could not miss any one of his tasks in a hectic schedule.
+Goal Tracking:
+Accomplishment of Academic and Research goals:As we need to keep an eye on all the long term goals and its continous progress which helps in achieving goals.
+Monitoring administrative tasks to avoid any delay.
+
+
